@@ -1,5 +1,10 @@
+Changes
 Enclosure.pm
 GPL
+INSTALL
 Makefile.PL
 MANIFEST
-test.pl
+META.yml
+t/01_module.t
+t/02_pod.t
+t/03_pod_coverage.t

@@ -10,7 +10,7 @@ use XML::RAI::Object;
 
 our (@ISA, $XMap, $VERSION);
 
-$VERSION = 1.00;
+$VERSION = 1.01;
 
 @ISA = qw( XML::RAI::Object );
 
@@ -37,7 +37,7 @@ sub load {
 
 __END__
 
-=begin
+=pod
 
 =head1 NAME
 
@@ -65,6 +65,8 @@ A subclass of L<XML::RAI::Object>, XML::RAI::Enclosure handles the mapping funct
 
 =head1 METHODS
 
+=over 4
+
 =item XML::RAI::Enclosure->load
 
 A class method that accepts an XML::RAI::Item and returns a list of XML::RAI::Enclosures.
@@ -89,11 +91,11 @@ An object method that returns the enclosure length attribute.
 
 An object method that returns the enclosure type attribute.  For example: 'audio/mpeg'
 
+=back
+
 =head1 AUTHOR & COPYRIGHT
 
 Josh McAdams <joshua dot mcadams at gmail dot com> created this extension and released it under the GPL.
 
 =cut
-
-=end
 
